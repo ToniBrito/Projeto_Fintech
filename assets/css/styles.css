@@ -1,0 +1,221 @@
+/* Config. Globais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(78, 201, 253);
+}
+
+header {
+    background-color: rgb(11, 4, 90);
+}
+
+.container-fluid img{
+    height: 50px;
+    width: 250px;
+}
+
+.nav-item a:any-link {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: yellow;
+}
+
+.dropdown-menu {
+    background-color: rgb(11, 4, 90);
+}
+
+.dropdown-menu a {
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    color: yellow;
+    background-color: rgb(0, 106, 255);
+}
+
+.Textos_Informativos {
+    display: flex;
+    align-items: center;
+}
+
+.Mensagem_boas_vindas {
+    width: 300;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 30pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.Texto_guia {
+    width: 300;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 20pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.Informações {
+    background-color: white;
+    border: 2px solid;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 303.2px;
+    text-align: center;
+}
+
+.Informações img{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo-carrossel {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(11, 4, 90);
+}
+
+#carouselId {
+    background-color: rgb(11, 4, 90);
+    border: 15px solid;
+    border-radius: 3px;
+    border-color: black;
+}
+
+.carousel-item img {
+    height: 1000px;
+    background-color: rgb(11, 4, 90);
+}
+    
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: white; 
+}
+
+img { 
+    padding: 10px; 
+}
+
+
+.tabela-financeira title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.tabela-financeira p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px
+}
+
+.table-recebimentos {
+    color: rgb(11, 4, 90);
+    background-color: green;
+}
+
+.valores-recebimento{
+    background-color: yellowgreen;
+}
+
+.table-gastos {
+    color: rgb(11, 4, 90);
+    background-color: red;
+}
+
+.valores-gasto {
+    background-color: rgb(190, 89, 89);
+}
+
+.table-total {
+    color: rgb(11, 4, 90);
+    background-color: rgb(36, 61, 135);
+}
+
+.valor-total {
+    background-color: rgb(79, 120, 245);
+}
+
+.tabela-financeira { 
+    width: 100%; margin: 2rem 0; 
+} 
+
+.tabela-financeira table { 
+    width: 90%; 
+    border-collapse: collapse; 
+    margin: 0 auto; 
+} 
+
+.tabela-financeira th, .tabela-financeira td { 
+    border: 1px solid #ddd; 
+    padding: 0.5rem;
+    text-align: center; 
+}
+
+.Mensagem_de_observação {
+    width: 300;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 3rem;
+    font-size: 20pt;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(11, 4, 90);
+}
+
+footer {
+    background-color: rgb(11, 4, 90);;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-item {
+        flex-direction: column;
+        align-self: center;
+    }
+}
